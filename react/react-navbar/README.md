@@ -2,10 +2,15 @@
 
 ## Summary
 
-This project was created following the example provided by `Brian Design` via his YouTube
-tutorial video, located at [https://www.youtube.com/watch?v=fL8cFqhTHwA&t=1506s](https://www.youtube.com/watch?v=fL8cFqhTHwA&t=1506s). Credit goes to Brian for this awesome tutorial!
+This project is an example showing how to create a dynamic navigation bar in React. This project created following the example provided by `Brian Design` via his YouTube tutorial video, located at [https://www.youtube.com/watch?v=fL8cFqhTHwA&t=1506s](https://www.youtube.com/watch?v=fL8cFqhTHwA&t=1506s). Credit goes to Brian for this awesome tutorial!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+[Font Awesome](https://fontawesome.com/) is used for providing fonts used in this project.
+
+<img src="https://fontawesome.com/images/open-graph.png" alt="Font Awesome" style="width:439px;"/>
+
+In order to use this tutorial, you will need to create a free account with Font Awesome and utilize their CDN to gain access to their free fonts. In your your Font Awesome account, navigate to "Font Awesome CDN" and then copy your CDN link. Copy this link into the <head> section in the project `/public/index.html` file. There is currently a placeholder for this link in the `/profile/index.html` file, which describes the need/requirement for the Font Awesome CDN link.
 
 ## Available Scripts
 
