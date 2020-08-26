@@ -1,0 +1,29 @@
+.header {
+    margin-bottom: 1em;
+}
+
+.author-meta {
+    margin-bottom: 0.25em;
+}
+
+.name {
+    font-weight: 600;
+    margin-right: 4px;
+}
+
+.handle, .time {
+    color: #657786;
+}
+
+.handle::after {
+    content: " \00b7  ";
+}
+
+p {
+    margin-bottom: 0.4em;
+}
+
+.author-tag {
+    color: #1da1f2;
+    text-decoration: none;
+}

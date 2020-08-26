@@ -1,0 +1,75 @@
+.body {
+    border: 0.1px solid #DDDDDD;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+.content-header {
+    height: 240px;
+    background-color: #1fb8f4;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-header > .logo {
+    width: 50px;
+    height: 50px;
+    color: #FFF;
+    background: #000;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.content-header > .title {
+    color: #FFF;
+    display: flex;
+    font-weight: 600;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.author-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.author {
+    background-color: #FFF;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.author > .name {
+    color: #1fb8f4;
+}
+
+.author > .image {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    display: flex;
+    justify-content: center;
+}
+
+.content-details {
+    margin: 0.5em;
+}
+
+.content-details > .title {
+    font-weight: 600;
+}
+
+.content-details > .website {
+    color: #657786;
+}

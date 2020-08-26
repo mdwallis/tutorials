@@ -1,0 +1,32 @@
+.social-card {
+    display: flex;
+    align-items: flex-start;
+    width: 600px;
+    padding: 10px;
+    border-top: 0.1px solid #CDCDCD;
+    border-bottom: 0.1px solid #CDCDCD;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all .1s ease-in;
+}
+
+.social-card:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    flex: 1;
+}
+
+.avatar {
+    margin-right: 10px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+p, ul {
+    margin: 0;
+}
+
