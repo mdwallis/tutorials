@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [Font Awesome](https://fontawesome.com/) is used for providing fonts used in this project.
 
 <a href="https://fontawesome.com/">
-    <img src="https://fontawesome.com/images/open-graph.png" alt="Font Awesome" width="200px"/>
+    <img src="https://fontawesome.com/images/open-graph.png" alt="Font Awesome" width="439px"/>
 </a>
 
 In order to use this tutorial, you will need to create a free account with Font Awesome and utilize their CDN to gain access to their free fonts. In your your Font Awesome account, navigate to "Font Awesome CDN" and then copy your CDN link. Copy this link into the <head> section in the project `/public/index.html` file. There is currently a placeholder for this link in the `/profile/index.html` file, which describes the need/requirement for the Font Awesome CDN link.
