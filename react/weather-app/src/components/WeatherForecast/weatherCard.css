@@ -1,0 +1,25 @@
+.weather-card {
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all .1s ease-in;
+}
+
+.weather-card:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.4);
+}
+
+.date, .icon, .description, .temperatures {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    margin-bottom: 5px;
+}
+
+.temperatures {
+    justify-content: space-evenly;
+}
