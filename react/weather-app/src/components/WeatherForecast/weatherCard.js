@@ -7,11 +7,11 @@ const getDayName = dateStr => {
     return date.toLocaleDateString('en', { weekday: 'short' });
 }
 
-const WeatherCard = ({ item, onClick }) => {
+const WeatherCard = ({ item }) => {
     const iconUrl = `http://openweathermap.org/img/wn/${item.weather[0].icon}@2x.png`;
 
     return (
-        <li className='weather-card' onClick={onClick}>
+        <li className='weather-card'>
             <div className='date'>
                 <span>{getDayName(item.dt * 1000)}</span>
             </div>
@@ -31,7 +31,6 @@ const WeatherCard = ({ item, onClick }) => {
 
 WeatherCard.props = {
     items: PropTypes.array.isRequired,
-    onClick: PropTypes.func.isRequired,
 };
 
 export default WeatherCard;
