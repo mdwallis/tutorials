@@ -11,13 +11,12 @@ export default function WeatherForecast() {
     const [weather, setWeather] = useState({ daily: [] });
     const [latitude, setLatitude] = useState(35.787922);
     const [longitude, setLongitude] = useState(-78.482323);
-    const [state, setState] = useState({
-        loading: true,
-    });
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        setState({ loading: true });
+        setLoading(true);
         const url = `${process.env.REACT_APP_API_BASE_URL}/onecall?lat=${latitude}&lon=${longitude}&units=${units}&exclude=${exclude}&APPID=${appid}`;
+        console.log(url);
         fetch(url)
             .then(response => {
                 if (response.ok) {
@@ -25,39 +24,19 @@ export default function WeatherForecast() {
                 }
             })
             .then(data => {
+                console.log(data);
                 setWeather(data);
             })
             .catch(error => {
                 console.error(error);
             })
             .finally(() => {
-                setState({ loading: false })
+                setLoading(false);
             });
-    }, []);
-
-    // const handleChange = (event) => {
-    //     setState({
-    //         ...state,
-    //         [event.target.name]: event.target.value,
-    //     })
-    // };
+    }, [latitude, longitude]);
 
     return (
         <div>
-            {/* <form>
-                <label>
-                    Latitude:
-                    <input type='text' name='latitude' onChange={handleChange} />
-                </label>
-                <br />
-                <label>
-                    Longitude:
-                    <input type='text' name='longitude' onChange={handleChange} />
-                </label>
-                <br />
-                <input type='submit' value='Show Me The Weather!' />
-            </form> */}
-
             <ol className='weather-card-list'>
                 {
                     weather.daily.map((item, index) => (

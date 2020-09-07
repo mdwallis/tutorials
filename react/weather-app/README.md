@@ -1,3 +1,28 @@
+# React Project: **Weather App**
+
+## Summary
+This is tutorial project has been created in an effort to provide a weather application that shows a 7-day forecast using React.
+
+Credit goes to **Dave Ceddia** for the fantastic project recommentations and inspiration for project. Dave's specific project can be found here: [https://daveceddia.com/react-practice-projects/#weather-app](https://daveceddia.com/react-practice-projects/#weather-app)
+
+While not an exact replica, the purpose is to continue learning React using functional components and to incorporate using the fetch HTML client and working with an external data provider.
+
+The below screen shot displays the result of this project:
+
+<img src="screenshot.png" alt="Weather App... looking like rain for the week :/" width="600"/>
+
+## To use
+You will need to set your own OpenWeather API key in a local .env.local fil (or file you prefer to use). The following environment variable must be set:
+
+<p>
+    REACT_APP_OPEN_WEATHER_APP_ID=*** Your OpenWeather API Key Here***
+</p>
+
+Please visit the OpenWeather website for more information [https://openweathermap.org](
+https://openweathermap.org)
+
+<img src="https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png" alt="OpenWeatherMap" width="300">
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
