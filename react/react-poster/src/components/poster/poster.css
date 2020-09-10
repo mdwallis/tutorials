@@ -1,0 +1,38 @@
+.poster {
+    width: 40em;
+    height: 30em;
+    border: 0.2em solid #5DCFEF;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 30em;
+    height: 20em;
+    margin-top: 2em;
+    border: 0.2em solid #5DCFEF;
+}
+
+.title {
+    color: #5DCFEF;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+}
+
+.title > .middle {
+    font-size: 40px;
+    padding-top: 0.1em;
+}
+
+.text {
+    color: #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+}

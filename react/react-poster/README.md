@@ -1,13 +1,13 @@
-# React Project: **Credit Card**
+# React Project: **Poster**
 
 ## Summary
-This is tutorial project has been created in an effort to provide a credit card using React. This is a tutorial project modeled after using **Dave Ceddia**'s book titled *Pure React*. Please see Dave's web site located at [https://daveceddia.com](https://daveceddia.com).
+This is tutorial project has been created in an effort to provide a poster using React. This is a tutorial project modeled after using **Dave Ceddia**'s book titled *Pure React*. Please see Dave's web site located at [https://daveceddia.com](https://daveceddia.com).
 
 While not an exact replica, the purpose is to continue learning React.
 
 The below screen shot displays the result of this project:
 
-<img src="screenshot.png" alt="Credit Card... save, save, save!"/>
+<img src="screenshot.png" alt="Poster... say it loud!"/>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
