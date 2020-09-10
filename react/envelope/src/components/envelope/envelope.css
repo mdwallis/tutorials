@@ -1,0 +1,28 @@
+.envelope {
+    width: 36em;
+    height: 22em;
+    border: 0.1px solid #ccc;    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.fromPerson {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.toPerson {
+    align-self: center;
+}
+
+.stamp {
+    border: 1px solid #ccc;
+    margin: 1em;
+    padding: 1.5em 1em 1.5em 1em;
+    border-radius: 0.2em;
+}
+
+.stamp > div {
+    transform: rotate(-45deg);
+}
