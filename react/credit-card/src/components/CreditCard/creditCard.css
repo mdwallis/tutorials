@@ -1,0 +1,59 @@
+.credit-card {
+    width: 22em;
+    border: 0.1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    background-color: #2244aa;
+    color: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+    transition: all .1s ease-in;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+
+.header-image {
+    background-image: url('../../images/piggy-bank.png');
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 100px;
+    box-shadow: 0 0 8px 8px #2244aa inset;
+    border-radius: 1em;
+}
+
+.header-label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: xx-large;
+    align-self: center;
+    margin-right: 0.6rem;
+}
+
+.account, .valid-through, .cardholder-name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.account {
+    align-self: center;
+}
+
+.valid-through {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    text-transform: uppercase;
+}
+
+.valid-through-label {
+    width: 30px;
+    font-size: x-small;
+    padding-right: 0.4em;
+}

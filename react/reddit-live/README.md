@@ -1,6 +1,6 @@
 # Fetching Data in React
 
-This tutorial shows how to fetch data in React using the [Axios](https://github.com/axios/axios) HTTP library. This example is from Dave Ceddia's examples provided at [Fetching Data with React](https://daveceddia.com/react-getting-started-tutorial/#fetch-data-with-react).
+This tutorial shows how to fetch data in React using the [Axios](https://github.com/axios/axios) HTTP library. This example is from **Dave Ceddia**'s examples provided at [Fetching Data with React](https://daveceddia.com/react-getting-started-tutorial/#fetch-data-with-react).
 
 <img src="screenshot.png" alt="Reddit /r/reactjs" width="600" />
 
